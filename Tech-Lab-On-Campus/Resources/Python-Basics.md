@@ -82,8 +82,8 @@ snoopy.eat() # this will print: "Snoopy is eating."
 There are a few ways to read arguments from the command line, but we will go over using `sys`.
 In this module, there is a variable, `sys.argv`, which is a list. Some things to note:
 
-1. since sys.argv is a list, we can get the length of arguments with len()
-2. sys.argv[0] will be the name of the file given
+1. since `sys.argv` is a list, we can get the length of arguments with `len()`
+2. `sys.argv[0]` will be the name of the file given
 3. All arguments are **strings**!
 
 **Example**
